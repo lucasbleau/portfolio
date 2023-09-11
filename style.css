@@ -2,38 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-snap-type: x mandatory;
 }
 
 .page {
     height: 100vh;
-    scroll-margin-bottom: 0;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
-.page1 {
-    height: 100%;
-    background-color: steelblue;
-    scroll-margin: 0;
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
-.page2 {
-    height: 100%;
-    background-color: green;
-}
-
-.page3 {
-    height: 100%;
-    background-color: yellow;
-}
-
-.page4 {
-    height: 100%;
-    background-color: red;
-}
-
-.page5 {
-    height: 100%;
-    background-color: pink;
-}
+.slide:nth-child(1){background-color: steelblue}
+.slide:nth-child(2){background-color: pink}
+.slide:nth-child(3){background-color: green}
+.slide:nth-child(4){background-color: yellow}
+.slide:nth-child(5){background-color: red}
 
 /** {*/
 /*    margin: 0;*/

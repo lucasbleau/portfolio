@@ -11,21 +11,29 @@
 <body>
 
 <div class="page">
-    <div class="page1">
+    <div class="slide">
+        <h1>Lucas BLEAU</h1>
     </div>
-    <div class="page2">
+
+    <div class="slide">
+        <h1>bloc 2</h1>
     </div>
-    <div class="page3">
+    <div class="slide">
+        <h1>bloc 3</h1>
     </div>
-    <div class="page4">
+    <div class="slide">
+        <h1>bloc 4</h1>
     </div>
-    <div class="page5">
+    <div class="slide">
+        <h1>bloc 5</h1>
+
         <div class="main">
             <div class="d1"></div>
             <div class="d2"></div>
             <div class="d3"></div>
             <div class="d4"></div>
         </div>
+
     </div>
 </div>
 </body>
