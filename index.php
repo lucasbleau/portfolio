@@ -11,10 +11,20 @@
 <body>
 
 <div class="page">
+
+    <div class="nav">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+
     <div class="slide">
         <h1>Lucas BLEAU</h1>
     </div>
-
     <div class="slide">
         <h1>bloc 2</h1>
     </div>
