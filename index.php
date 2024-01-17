@@ -20,7 +20,7 @@
 
     <nav class="navbar fixed-top">
         <div class="container-fluid">
-            <button class="navbar-toggler border border-black " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <button class="navbar-toggler border border-black brd-rd" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-body"></span>
     <!--            <p class="text-dark my-0">Menu</p>-->
             </button>
@@ -191,6 +191,37 @@
 
         <div class="slideeee" id="bloc3">
             <h1>Projets</h1>
+            <div id="carouselExampleIndicators" class="carousel slide ">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+
+<!--                <div class="carousel-inner bx-sh">-->
+<!--                    <div class="carousel-item active">-->
+<!--                        <div class="grid3">-->
+<!--                            <h1>Projet </h1>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="carousel-item">-->
+<!--                        <div class="gri4">-->
+<!--                            <h1>Projet 2</h1>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
         </div>
 
         <div class="slideeee" id="bloc4">
@@ -206,10 +237,10 @@
                 <p class="sous-titre">L'automobile</p>
                 <div class="gridV">
                     <div class="drift1">
-                        <img src="locatelli1.jpg" alt="1">
+                        <img src="locatelli3.jpg" alt="1">
                     </div>
                     <div class="drift2">
-                        <img src="jason.jpg" alt="2">
+                        <img src="jason2.jpg" alt="2">
                     </div>
                     <div class="gt3rs">
                         <img src="porsche2.jpg" alt="3">

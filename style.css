@@ -68,14 +68,15 @@
     margin: 2% 2%;
     padding: 1%;
     border: black solid 1px;
+    width: 80%;
 }
 
 .gridV
 {
     display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 32vh 32vh;
+
+    grid-template-columns: 80vh 80vh;
+    grid-template-rows: 1fr 1fr;
     align-self: center;
     align-items: center;
     justify-items: center;
@@ -200,30 +201,9 @@
     box-shadow: -20px 20px 50px 15px rgba(0,0,0,0.5);
 }
 
-
-.cinq
+.brd-rd
 {
-    grid-column: 1 / 2;
-    grid-row: 5 / 6;
-    margin-top: -16%;
-}
-
-.six
-{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-
-.sept
-{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-
-.huit
-{
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    border-radius: 10px;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -242,8 +222,8 @@
 
 *::-webkit-scrollbar-thumb {
     background-color: #474747;
-    border-radius: 0px;
-    border: 0px none #ff0000;
+    border-radius: 0;
+    border: 0 none #ff0000;
 }
 
 .sous-titre /* sous-titre page passions */
@@ -258,7 +238,10 @@
     text-align: center;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    width: 105%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 2%;
 }
 
 .drift2
@@ -266,7 +249,10 @@
     text-align: center;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    width: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 2%;
 }
 
 .gt3rs
@@ -274,7 +260,10 @@
     text-align: center;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    width: 110%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 2%;
 }
 
 .dodge
@@ -282,12 +271,15 @@
     text-align: center;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 2%;
 }
 
 #bloc5 img
 {
-    width: 70%;
+    width: 60%;
     height: auto;
     border: black 1px solid;
 }
