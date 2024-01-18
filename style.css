@@ -49,43 +49,21 @@
     background-color: #597081;
 }
 
-
-/* CONTENU */
-
-
-
 .contenu-VT
 {
     display: flex;
     margin: 5% 5%;
 }
 
+/*.carousel-inner*/
+/*{*/
+/*    width: 100%;*/
+/*    background-color: #7EA0B7;*/
+/*}*/
+
 .contenu-passions
 {
-    display: flex;
-    flex-direction: column;
-    background-color: #7EA0B7;
-    margin: 2% 2%;
-    padding: 1%;
-    border: black solid 1px;
-    width: 80%;
-}
-
-.gridV
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-self: center;
-    align-items: center;
-    justify-items: center;
-}
-
-.carousel-inner
-{
-    width: 100%;
-    border: black solid 1px;
-    background-color: #7EA0B7;
+    margin: 5%;
 }
 
 .grid1
@@ -96,6 +74,28 @@
     align-items: center;
     justify-items: center;
     text-align: center;
+    height: 80vh;
+}
+
+.grid2
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.grid3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
     height: 80vh;
 }
 
@@ -115,17 +115,6 @@
 {
     list-style: none;
     padding-left: 0;
-}
-
-.grid2
-{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    height: 80vh;
 }
 
 .grid2 div
