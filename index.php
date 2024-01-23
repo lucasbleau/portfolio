@@ -75,10 +75,10 @@
 
         <div class="slideeee" id="bloc2">
             <h1>Présentation</h1>
-            <div id="carouselExampleIndicators" class="carousel slide">
+            <div id="carouselExampleIndicatorsPrésentation" class="carousel slide">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicatorsPrésentation" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicatorsPrésentation" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
                 <div class="carousel-inner bx-sh ">
                     <div class="carousel-item active">
@@ -151,11 +151,11 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsPrésentation" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsPrésentation" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -217,47 +217,60 @@
 
         <div class="slideeee" id="bloc5">
             <h1>Passion</h1>
-            <div id="carouselExampleIndicators" class="carousel slide ">
+            <div id="carouselExampleIndicatorsPassions" class="carousel slide ">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicatorsPassions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicatorsPassions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
                 <div class="carousel-inner bx-sh">
                     <div class="carousel-item active">
                         <div class="grid3">
-                            <div class="drift1">
+                            <div class="p1">
                                 <img src="photo/locatelli3.jpg" alt="1">
                             </div>
-                            <div class="drift2">
+                            <div class="p2">
                                 <img src="photo/jason2.jpg" alt="2">
                             </div>
-                            <div class="gt3rs">
+                            <div class="p3">
                                 <img src="photo/porsche2.jpg" alt="3">
                             </div>
-                            <div class="dodge">
+                            <div class="p4">
                                 <img src="photo/Dodge.jpg" alt="4">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="gri4">
-                            <h1>Projet 2</h1>
+                        <div class="grid3">
+                            <div class="p1">
+                                <img src="photo/ski1.jpg" alt="ski">
+                            </div>
+                            <div class="p2">
+                                <img src="photo/skate1.jpg" alt="skate">
+                            </div>
+                            <div class="p3">
+                                <img src="photo/ski2.jpg" alt="ski">
+                            </div>
+                            <div class="p4">
+                                <img src="photo/tennis1.jpg" alt="tennis">
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsPassions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsPassions" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
 
-        <div class="slideeee bx-sh" id="bloc6">
-            <div class="MeCo">
+        <div class="slideeee" id="bloc6">
+            <h1>Contact</h1>
+            <div class="MeCo bx-sh">
                 <a href="mailto:bleaulucas7@gmail.com">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                         <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
