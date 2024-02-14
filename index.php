@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang=en>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -17,51 +17,49 @@
     <title>Portfolio - Lucas BLEAU</title>
 </head>
 <body>
-<div>
+    
 
-    <nav class="navbar fixed-top">
-        <div class="container-fluid">
-            <button class="navbar-toggler border border-black brd-rd" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#bloc1">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#bloc2">Présentation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#bloc3">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#bloc4">Veille Technologique</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#bloc5">Passion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#bloc6">Contact</a>
-                        </li>
+    <button class="btn btn-primary position-fixed bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+        <svg xmlns="http://www.w3.org/2000/svg" class="text-dark m-3" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+    </button>
 
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close ms-auto p-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#bloc1">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#bloc2">Présentation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#bloc3">Projets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#bloc4">Veille Technologique</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#bloc5">Passion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#bloc6">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+    </div>
 
 
-
-
+    
 
 
     <div class="page">
+
 
         <div class="slideeee" id="bloc1">
             <h1>Lucas BLEAU</h1>
@@ -69,13 +67,9 @@
         </div>
 
 
-
-
-
-
         <div class="slideeee" id="bloc2">
             <h1>Présentation</h1>
-            <div id="carouselExampleIndicatorsPrésentation" class="carousel slide">
+            <div id="carouselExampleIndicatorsPrésentation" class="carousel slide color1">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicatorsPrésentation" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicatorsPrésentation" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -87,7 +81,7 @@
                                 <img src="photo/BLEAU_Lucas.jpg" alt="photo">
                             </div>
                             <div  class="ParP">
-                                <h2>Parcours proffessionel</h2>
+                                <h2>Parcours professionel</h2>
                                 <p>Je suis actuellement en 2ème année de BTS SIO à Besançon et je souhaite poursuivre mes études afin de devenir développeur web.</p>
                             </div>
                             <div class="Qua">
@@ -121,7 +115,7 @@
                                 </ul>
                             </div>
                             <div class="ExpSai">
-                                <h2 >Expériences proffessionelles / job saisonier</h2>
+                                <h2 >Expériences professionelles / job saisonier</h2>
                                 <ul>
                                     <li>- Vendange : Arnoux / 2 semaines en Août 2020 / Arbois</li>
                                     <li>- Service et entretien dans un camping : Camping d'Arbois / du 1er juin au 20 juillet 2021 / Arbois</li>
@@ -131,7 +125,7 @@
 
                             </div>
                             <div class="ExpEtu">
-                                <h2 >Expériences proffessionelles / job étudiant</h2>
+                                <h2 >Expériences professionelles / job étudiant</h2>
                                 <ul>
                                     <li>Stage de 3ème : L'HOMME / 1 semaine en Décembre 2017 / Poligny</li>
                                     <li>Surveillant / Animateur : Aux Ateliers / 29 Janvier - 30 Mai 2022 / Besançon</li>
@@ -161,10 +155,6 @@
                 </button>
             </div>
         </div>
-
-
-
-
 
 
         <div class="slideeee" id="bloc3">
@@ -204,8 +194,38 @@
 
         <div class="slideeee" id="bloc4">
             <h1>Veille tehnologique</h1>
-            <div class="contenu-VT">
-                <p>Vous pouvez telecharger ce document pour comprendre ce qu'est une veille technologique : </p>
+            <div class="h4 my-5 pt-5">
+                Définition :
+            </div>
+            <p class="w-75 text-center">
+                La veille technologique est constituée de l’ensemble des techniques visant à organiser de façon systématique la collecte, 
+                l’analyse, la diffusion de l’exploitation des informations techniques utiles à la sauvegarde et à la croissance des entreprises.
+            </p>
+            <div class="h4 my-5 pt-2">
+                Concepts
+            </div>
+            <p class="text-center">
+                La veille technologique peut se définir en 3 concepts : 
+            </p>
+            <ul class="text-center ">
+                <li class="list-group-item">L'aquisition d'information,</li>
+                <li class="list-group-item">La transmission et le stockage,</li>
+                <li class="list-group-item">La synthèse des informations collectées.</li>
+            </ul>
+            <div class="h4 my-5 pt-2">
+                Réalisation
+            </div>
+            <p class="text-center">
+                Pour ma veille technologique, j'ai choisis de suivre les avancées de l'intelligence artificielle dans la photographie.
+            </p>
+            <div class="my-2 d-flex py-2 w-50 text-center">
+                <p class="mb-0">Vous pouvez ouvrir et télécharger le travail que j'ai réalisé sur la veille technologique et sur l'intelligence artificielle dans la photographie, en version PDF en cliquant ici :
+                    <svg onclick="ouvrirPDF()" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download btn-tel" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                        <use xlink:href="#box-seam"></use>
+                    </svg>
+                </p>
             </div>
         </div>
 
@@ -217,14 +237,14 @@
 
         <div class="slideeee" id="bloc5">
             <h1>Passion</h1>
-            <div id="carouselExampleIndicatorsPassions" class="carousel slide ">
+            <div id="carouselExampleIndicatorsPassions" class="carousel slide color1">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicatorsPassions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicatorsPassions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
                 <div class="carousel-inner bx-sh">
                     <div class="carousel-item active">
-                        <div class="grid3">
+                        <div class="d-grid my-3">
                             <div class="p1">
                                 <img src="photo/locatelli3.jpg" alt="1">
                             </div>
@@ -240,7 +260,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="grid3">
+                        <div class="d-grid my-3">
                             <div class="p1">
                                 <img src="photo/ski1.jpg" alt="ski">
                             </div>
@@ -268,31 +288,50 @@
             </div>
         </div>
 
+
         <div class="slideeee" id="bloc6">
             <h1>Contact</h1>
-            <div class="MeCo bx-sh">
-                <a href="mailto:bleaulucas7@gmail.com">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <div class="MeCo bx-sh color1">
+                <a href="mailto:bleaulucas7@gmail.com" class="btn-tel p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="m-2" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                         <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
                     </svg>
-                    bleaulucas7@gmail.com
+                    email : bleaulucas7@gmail.com
                 </a>
-                <a href="telto:0610360128">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <a href="telto:0610360128" class="btn-tel p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="m-2" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
                     </svg>
-                    06 10 36 01 28
+                    tel : 06 10 36 01 28
                 </a>
-                <a href="https://github.com/lucasbleau">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <div class="btn-tel p-4" onclick="ouvrirGIT()" >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="m-2" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
                     </svg>
-                    lucasbleau
-                </a>
+                    github : lucasbleau
+                </div>
             </div>
         </div>
 
     </div>
+    <script>
+        function ouvrirPDF() {
+            // Spécifiez le chemin vers votre document PDF
+            var cheminPDF = 'VT.pdf';
+
+            // Ouvrez le PDF dans une nouvelle fenêtre
+            window.open(cheminPDF, '_blank');
+        }
+    </script>
+    <script>
+        function ouvrirGIT() {
+            // Spécifiez le chemin vers votre document PDF
+            var cheminPDF = 'https://github.com/lucasbleau';
+
+            // Ouvrez le PDF dans une nouvelle fenêtre
+            window.open(cheminPDF, '_blank');
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous">

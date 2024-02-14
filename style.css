@@ -13,20 +13,31 @@
     scroll-snap-type: y mandatory;
 }
 
+.color1
+{
+    background-color: #7EA0B7;
+}
+
+
 .slideeee {
     display: flex;
     flex-direction: column;
     padding: 5%;
     align-items: center;
     height: 100vh;
+    width: 100%;
     scroll-snap-align: center;
     background-color: #d5d4d4;
+    color: rgb(0, 0, 0);
+}
+
+.slideeee a {
     color: black;
 }
 
 .slideeee:nth-child(1) {
     padding: 20%;
-    /*background-color: #7EA0B7;*/
+    /* background-color: #7EA0B7; */
 }
 
 .slideeee:nth-child(2) {
@@ -49,17 +60,6 @@
     background-color: #597081;
 }
 
-.contenu-VT
-{
-    display: flex;
-    margin: 5% 5%;
-}
-
-/*.carousel-inner*/
-/*{*/
-/*    width: 100%;*/
-/*    background-color: #7EA0B7;*/
-/*}*/
 
 .contenu-passions
 {
@@ -74,7 +74,7 @@
     align-items: center;
     justify-items: center;
     text-align: center;
-    height: 80vh;
+    height: 75vh;
 }
 
 .grid2
@@ -85,18 +85,7 @@
     align-items: center;
     justify-items: center;
     text-align: center;
-    height: 80vh;
-}
-
-.grid3
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-self: center;
-    align-items: center;
-    justify-items: center;
-    height: 80vh;
+    height: 75vh;
 }
 
 .grid1 .photo-moi img
@@ -134,11 +123,14 @@
 {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
+    /* bottom: -10%; */
+    position: relative;
+    right: -10%;
 }
 
 .photo-moi img
 {
-    width: 10%;
+    width: 8%;
     border: white solid 2px;
 }
 
@@ -146,42 +138,63 @@
 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    top: -20%;
+    position: relative;
+    right: -10%;
 }
 
 .Qua
 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
+    bottom: -15%;
+    position: relative;
+    left: -10%;
 }
 
 .Comp
 {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    top: -30%;
+    position: relative;
+    left: -10%;
 }
 
 .CeDi
 {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+    /* top: -10%; */
+    position: relative;
+    right: -10%;
 }
 
 .ExpSai
 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
+    bottom: -10%;
+    position: relative;
+    left: -5%;
 }
 
 .ExpEtu
 {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
+    bottom: -10%;
+    position: relative;
+    right: -5%;
 }
 
 .For
 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    top: -10%;
+    position: relative;
+    left: -10%;
 }
 
 .bx-sh
@@ -192,6 +205,12 @@
 .brd-rd
 {
     border-radius: 10px;
+}
+
+.btn-tel:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -284,13 +303,27 @@
     justify-content: center;
 }
 
-svg
-{
-    margin: 2%;
-}
 
-.MeCo a
+.MeCo a 
 {
     text-decoration: none;
-    padding: 5%;
 }
+
+h1 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+h2:hover {
+    box-shadow: inset 30em 0 0 0 #54b3d6;
+    color: white;
+}
+
+
